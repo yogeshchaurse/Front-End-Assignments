@@ -220,17 +220,33 @@ margin-bottom: 153px;
 	background:rgb(50,50,50);
 }
 
-#signIn{
+#signinbtn{
 
- margin-left: 550px;
- /*margin-right: 20px;*/
- margin-top: 10px;
- font-family: Myraid Pro;
- background: rgb(64,175,239);
- border-radius: 22px;
-}
-.getStartedButtons{ 
+background: rgb(64,175,239);
 margin-top: 10px;
- border-radius: 22px;
- background: rgb(227,156,42);
+font-family: Myraid Pro;
+border-radius: 22px;
+margin-left: 550px;
+ 
+}
+#headerbtn{ 
+background: rgb(227,156,42);
+margin-left: 8px;
+margin-top: 10px;
+border-radius: 22px;
+ 
+}
+#add
+{
+	font-family:Myraid Pro;
+	font-size: 22px;
+	color: rgb(68,68,68);
+	line-height:36px;
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+#orline
+{
+	margin-top: 40px;
+	margin-bottom: 15px;
 }
