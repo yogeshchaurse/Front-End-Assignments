@@ -228,6 +228,12 @@ padding: 3px;
 	border-color: #eebe00;
 	margin-top: 0px;
 }
+.border3
+{
+	width: 220px;
+	border-bottom: solid 1px;
+	border-color:#f0f0f0;
+}
 .by
 {
 	font-family: Georgia;
@@ -252,7 +258,7 @@ padding: 3px;
 
 .lorem li
 {
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 }
 .sectors_we_work_in
 {
@@ -439,7 +445,7 @@ nav ul li a:hover
 
 .wrapper1 .we_do1 a:hover
 {
-	color: gray;
+	color: black;
 }
 				
 .anouncement a:hover
