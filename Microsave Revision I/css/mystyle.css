@@ -99,6 +99,7 @@ nav li
     background-repeat: no-repeat;
 
 
+
 }
 nav li a
 {
@@ -420,4 +421,22 @@ padding: 3px;
 	font-size: 11px;
 	float: right;	
 }
-					
+
+nav ul li a:hover
+{
+	color: blue;
+}
+
+.wrapper1 .we_do1 a:hover
+{
+	color: gray;
+}
+				
+.anouncement a:hover
+{
+	color: gray;
+}	
+.wrapperFotter .ft  .footer1 ul li a:hover
+{
+	color:white;
+}
