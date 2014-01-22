@@ -124,15 +124,15 @@ nav li a
 }
 .field
 {
-background-color:rgb(33,65,147);
+background-color:#214193;
 margin-top: 5px;
 height: 20px;
 width: 168px;
 font-style: italic;
 font-family:georgia;
-color: rgb(169,177,206);
+color:#A9B1CE;
 border-radius: 5px;
-border-color:rgb(15,35,86);
+border-color:#0F2356;
 padding: 3px; 
 }
 .searchLogo
