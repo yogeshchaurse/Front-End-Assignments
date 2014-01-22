@@ -110,6 +110,8 @@ nav li a
     font-family:georgia;
     text-decoration: none;
     color: white;
+    text-shadow:1px 1px #114499;
+
 
 }
 .search
@@ -317,6 +319,7 @@ padding: 3px;
 {
 	background: url("../images/pattern.jpg");
 	background-repeat:repeat;	
+	box-shadow: 1px 0px 3px black;
 }
 .ft
 {
@@ -363,6 +366,8 @@ padding: 3px;
     text-decoration: none;
     color: #aaaaaa;
     font-weight:900;
+    text-shadow:1px 0px 3px black;
+
 
 }
 .link2
@@ -413,6 +418,7 @@ padding: 3px;
     text-decoration: none;
     color: #aaaaaa;
     font-weight:900;
+     text-shadow:1px 0px 3px black;
 
 }
 .followText
@@ -427,7 +433,7 @@ padding: 3px;
 
 nav ul li a:hover
 {
-	color: blue;
+	color:black;
 }
 
 .wrapper1 .we_do1 a:hover
