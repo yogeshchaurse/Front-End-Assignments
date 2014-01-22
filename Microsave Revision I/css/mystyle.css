@@ -327,8 +327,7 @@ padding: 3px;
 {
 	float: left;
 	list-style: none;
-	/*margin-left: 230px;*/
-	/*width: 500px;*/
+	
 	
 }
 .footer1
@@ -350,8 +349,7 @@ padding: 3px;
 
 .link1 li a
 {
-	/*margin-top: 19px;*/
-	/*margin-bottom: 10px;*/
+	
     display: inline-block;
     padding: 0px;
     font-size:14px;
@@ -366,8 +364,7 @@ padding: 3px;
 	float:right;
 	list-style: none;
 	text-decoration: none;
-	/*width: 600px;*/
-	/*margin-right: 130px;*/
+	
 }
 .fonts
 {
@@ -377,7 +374,7 @@ padding: 3px;
 }
 .copyright
 {
-	/*margin-left: 230px;*/
+	
 	margin-top: 15px;
 	color: rgb(170,170,170);
 	font-family:georgia;
