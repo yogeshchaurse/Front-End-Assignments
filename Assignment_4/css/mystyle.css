@@ -1,0 +1,252 @@
+/*Reset CSS
+*/
+
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, i, 
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*---------------------------------------*/
+
+#main
+{
+	background:rgb(238,238,238);
+	/*border: solid 1px black;*/
+	
+}
+.header
+{
+	background:rgb(50,50,50);
+	height: 54px;
+
+}
+#wraper1
+{
+	background: rgb(51,170,238);
+
+}
+
+.logo
+{
+	margin-top: 5px;
+}
+.getstarted
+{
+	background: rgb(51,170,238);
+	height: 128px;
+	text-align: center;
+}
+
+.custombtn
+{
+	width:245px;
+    height:60px;
+    font-family: Myraid Pro;
+    font-size: 26px;
+    border-radius: 20px;
+}
+.heading
+{
+	margin-top: 74px;
+	font-family: Ubuntu;
+	font-size: 36px;
+	color: rgb(68,68,68);
+	text-align: center;
+}
+.What
+{
+	margin-top: 50px;
+	margin-bottom: 48px;
+	font-family: Ubuntu;
+	font-size: 36px;
+	color: rgb(68,68,68);
+	text-align: center;
+
+}
+.para
+{
+	margin-top: 33px;
+	font-family:Myraid Pro;
+	font-size: 18px;
+	color: rgb(68,68,68);
+	text-align: left;
+	line-height:150%;
+}
+
+.para2
+{
+	
+	font-family:Myraid Pro;
+	font-size: 24px;
+	color: rgb(68,68,68);
+	text-align: left;
+	font-weight:35px;
+	line-height:150%;
+}
+.fb
+{
+	height: 380px;
+	width: 300px;
+	margin-top: 30px;
+	border-radius: 10px;
+	background: rgb(255,255,255);
+	text-align: center;
+	box-shadow: 1px 1px 1px #888888;
+}
+
+.textfield
+{
+	height: 31px;
+	width: 259px;
+	margin-top: 10px;
+}
+.fb_text
+{
+	margin-top: 30px;
+	font-family:Myraid Pro;
+	font-size: 13px;
+	color: rgb(136,136,136);
+	font-weight:35px;
+	line-height:150%;
+
+}
+.terms
+{
+	font-family:Myraid Pro;
+	font-size: 13px;
+	color: rgb(51,51,51);
+	font-weight:35px;
+	line-height:150%;	
+	font-weight:bold;
+}
+.signup
+{
+	margin-top: 24px;
+	width:259px;
+    height:36px;
+    font-family: Myraid Pro;
+    font-size: 15px;
+    font-color:white; 
+    border-radius: 10px;
+    color: rgb(255,255,255);
+}
+
+.line
+{
+	margin-top: 30px;
+}
+.bottomline
+{
+	margin-top: 50px;
+}
+.question
+{
+	font-family:Myraid Pro;
+	font-size: 24px;
+	color: rgb(68,68,68);
+	text-align: left;
+	line-height:36px;
+}
+.answere
+{
+	font-family:Myraid Pro;
+	font-size: 13px;
+	color: rgb(102,102,102);
+	text-align: left;
+	line-height:18px;
+}
+.space
+{
+	margin-top: 60px;
+}
+
+.bottomlogo
+{
+margin-top: 46px;
+margin-bottom: 153px;
+}
+
+
+.custombtn_top
+{
+	width:95px;
+    height:10px;
+    font-family: Myraid Pro;
+    font-size: 13px;
+    border-radius: 20px;
+}
+#head
+{
+	background:rgb(50,50,50);
+}
+
+#signinbtn{
+
+background: rgb(64,175,239);
+margin-top: 10px;
+font-family: Myraid Pro;
+border-radius: 22px;
+margin-left: 550px;
+ 
+}
+#headerbtn{ 
+background: rgb(227,156,42);
+margin-left: 8px;
+margin-top: 10px;
+border-radius: 22px;
+ 
+}
+#add
+{
+	font-family:Myraid Pro;
+	font-size: 22px;
+	color: rgb(68,68,68);
+	line-height:36px;
+	margin-top: 24px;
+	margin-bottom: 16px;
+}
+#orline
+{
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
