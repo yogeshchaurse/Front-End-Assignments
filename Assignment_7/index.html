@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>DESTINATION GUIDE</title>
+
+	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+	</script>
+	<script  src="js/map.js"></script>
+
+
+	
+
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+</head>
+<body>
+	<div class="main">
+		<div class="fold1">
+			<header class="container">
+				<div class="dstnGuide">
+					<h1>Destination Guide</h1>
+				</div>
+				<ul class="menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Destinations</a></li>
+					<li><a href="#">Travel blog</a></li>
+					<li class="clear"></li>
+				</ul>
+				<form class="search">
+  					<input name="q" type="text" size="40" placeholder="Search a Destination"/>
+				</form>
+				<div class="clear"></div>
+			</header>
+		</div><!--fold1 end here-->
+
+		<div class="container placeToVisit">
+			<ul class="place">
+					<li><a href="#">Destinations</a></li>
+					<li><img src="images/Separator.png"></li>
+					<li><a href="#">Asia</a></li>
+					<li><img src="images/Separator.png"></li>
+					<li><a href="#">Thailand</a></li>
+					<li><img src="images/Separator.png"></li>
+					<li><a href="#">Bangkok</a></li>
+					<li class="clear"></li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+		
+		<div class="container plan">
+			<div class="imgBangkok">
+				<img src="images/Bangkok.jpg">
+			</div>
+			<div class="txtBangkok"><h2>Bangkok</h2></div>
+			<ul class="submenu">
+					<li><a href="#">Why Here</a></li>
+					<li><a href="#">What to do</a></li>
+					<li><a href="#">Festival & Events</a></li>
+					<li><a href="#">When to Visit</a></li>
+					<li class="clear"></li>
+			</ul>
+			<div class="planIt"><a href="#" class="Button">Plan It</a></div>
+			<div class="clear"></div>
+		</div>
+
+		<div class="container">
+			<ul class="sideMenu">
+				<li>
+					<a href="#">
+						<div class="Title">
+							<div class="howToReach"></div>
+							<div class="subject">
+								<span class="title1">How to reach</span>
+								<span class="title2">Travelling options</span>
+  							</div>
+						</div>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<div class="Title">
+							<div class="whereToStay"></div>
+							<div class="subject">
+								<span class="title1">Where to stay</span>
+								<span class="title2">Accommodation options</span>
+  							</div>
+						</div>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<div class="Title">
+							<div class="gettingAround"></div>
+							<div class="subject">
+								<span class="title1">Getting around</span>
+								<span class="title2">How to travel localy</span>
+  							</div>
+						</div>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<div class="Title">
+							<div class="holoidayPkg"></div>
+							<div class="subject">
+								<span class="title1">Holiday pakages</span>
+								<span class="title2">Top selling holiday packages</span>
+  							</div>
+						</div>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<div class="Title">
+							<div class="impInfo"></div>
+							<div class="subject">
+								<span class="title1">Important info.</span>
+								<span class="title2">Information required for travel</span>
+  							</div>
+						</div>
+					</a>
+				</li>
+
+				<li>
+					<a href="#">
+						<div class="Title">
+							<div class="travelCheckList"></div>
+							<div class="subject">
+								<span class="title1">Travel checklist</span>
+								<span class="title2">Things to remember when</span><span class="title3"> packing up</span> 
+  							</div>
+						</div>
+					</a>
+				</li>
+			</ul>
+			<div class="rightBody">
+				<div class="heading"><h3>How to reach Bangkok</h3></div>
+				<div class="map">
+					<div id="googleMap"></div>
+					<span class="distance">Distance From - </span>
+					<select class="dropdown">
+						<option>New Delhi</option>
+						<option>Mumbai</option>
+						<option>Pune</option>
+					</select>	
+				</div>
+				<div class="travelOption"><h4>Travel options<h4></div>
+				<div class="travelOptions">
+					<div class="airLogo"></div>
+					<div class="content">
+						<div class="details">
+							<h5>By Air</h5>
+						</div>
+						<div class="description"><p>Bangkok is well connected by air to the rest of the world and there are two airports in the city. The Suvarnabhumi Airport is located 25 kms east of Bangkok and the Don Mueang Airport located 24 kms to the north. Most international and domestic airlines operate at the Suvarnabhumi Airport, which is linked to the city by buses, taxis, and Airport Rail Link, a highspeed train service into downtown Bangkok.</p>
+						<a href="#" class="book">Book Flight Tickets<img src="images/bookLogo.jpg"></a> 
+						</div>
+					</div>
+				</div>
+
+				<div class="travelOptions">
+					<div class="trainLogo"></div>
+					<div class="content">
+						<div class="details">
+							<h5>By Train</h5>
+						</div>
+						<div class="description"><p>Bangkok is well connected by rail to the rest of Thailand and to neighbouring countries like Malaysia, Cambodia and Laos. The main railway station of Bangkok is the Hua Lamphong Railway Station where trains from neighbouring countries and other parts of Thailand operate. The Thornburi Train Station (formerly known as Bangkok Noi Station) serves for local or nearby travel.</p>
+						<a href="#" class="book">View Website<img src="images/bookLogo.jpg"></a> 
+						</div>
+					</div>
+				</div>
+
+				<div class="travelOptions">
+					<div class="busLogo"></div>
+					<div class="content">
+						<div class="details">
+							<h5>By Bus</h5>
+						</div>
+						<div class="description"><p>Buses to and from other parts of Thailand including Pattaya, Krabi, Phuket and Ko Samui and also to neighbouring countries operate in Bangkok. There are three major bus terminals in Bangkok; the Northern Bus Terminal, also known as Mo Chit, the Eastern Bus Terminal, also known as Ekkamai and the Southern Bus Terminal, also known as Sai Tai. A word of advice; book your bus tickets directly at one of the three public bus terminals and avoid travel agents and private buses which are not the most reliable.</p>
+						</div>
+					</div>
+				</div>
+				<div class="travelOptions">
+					<span class="notSure">Not sure of best route to Bangkok from your city. Search it on routeplanner-</span>
+					<span class="departureCity">Departure City -</span>
+					<select class="selectCity">
+						<option>Select City</option>
+						<option>Mumbai</option>
+						<option>Pune</option>
+					</select>
+					<a href="#" class="searchBtn">Search on route planner <img src="images/bookLogo.jpg"></a>
+				</div>
+			</div>
+			<div class="clear"></div>
+
+
+		</div>
+
+		
+		
+	</div><!--main div-->
+</body>
+
+</html>

@@ -1,0 +1,580 @@
+/*Reset CSS
+*/
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, i, 
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*------------------------Fonts---------------------------*/
+
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/RobotoBold/roboto-bold-webfont.eot');
+    src: url('../fonts/RobotoBold/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoBold/roboto-bold-webfont.woff') format('woff'),
+         url('../fonts/RobotoBold/roboto-bold-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoBold/roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: '../fonts/RobotoMedium/robotomedium';
+    src: url('../fonts/RobotoMedium/roboto-medium-webfont.eot');
+    src: url('../fonts/RobotoMedium/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RobotoMedium/roboto-medium-webfont.woff') format('woff'),
+         url('../fonts/RobotoMedium/roboto-medium-webfont.ttf') format('truetype'),
+         url('../fonts/RobotoMedium/roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/*-----------------------------------*/
+.main
+{
+	background-color:#ffffff;
+}
+body
+{
+	background-color:#ffffff;
+}
+.clear
+{
+	clear: both;
+}
+.container
+{
+	width: 940px;
+	margin: auto;
+	/*background-color: gray;*/
+}
+/*------------------------------header part------------------------*/
+.langMart
+{
+	width:140px;
+	height:38px;
+	background: url("../images/langmartLogo.png") no-repeat;
+	display: block;
+	float: left;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-right: 125px;
+}
+
+.menu
+{
+	float:left;
+	list-style: none;
+	padding-top: 20px;
+}
+.menu li 
+{
+	display: inline;
+	margin-right:40px;
+
+
+}
+.menu li a
+{
+	text-decoration: none;
+
+}
+.menuTxt
+{
+	font-family: RobotoBold;
+	font-size: 14px;
+	line-height: 15px;
+	color: #666666;
+	text-shadow:0.5px 0px 0.5px black;
+}
+
+.home
+{
+	height: 15px;
+	width: 15px;
+	float: left;
+	margin-right: 5px;
+	/*display: block;*/
+	background: url("../images/homeLogo.png") no-repeat;
+}
+.howItWorks
+{
+	height: 15px;
+	width: 16px;
+	float: left;
+	margin-right: 5px;
+	/*display: block;*/
+	background: url("../images/howItWorks.png") no-repeat;
+}
+.plansPricing
+{
+	height: 13px;
+	width: 14px;
+	float: left;
+	margin-right: 5px;
+	/*display: block;*/
+	background: url("../images/plansLogo.png") no-repeat;
+}
+.menuTxt
+{
+	float: left;
+}
+.menuContent
+{
+	float:left;
+	margin-left:40px;
+}
+.signIn
+{
+	float:right;
+}
+.Button {
+	-moz-box-shadow:inset 1px 0px 1px  #000000;
+	-webkit-box-shadow:inset 1px 0px 1px  #000000;
+	box-shadow:inset 1px 0px 1px  #000000;
+	background-color:#434343;
+	border:1px solid #e4e4e4;
+	display:inline-block;
+	color:#ffffff;
+	font-family: RobotoBold;
+	font-size:14px;
+	line-height: 30px;
+	font-weight:normal;
+	font-style:normal;
+	height:31px;
+	width:80px;
+	text-align:center;
+	text-decoration: none;
+	text-shadow:1px 0px 1px #000000;
+	border-radius: 5px;
+	margin-top: 15px;
+}
+
+.fold1
+{
+	box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.15); 
+}
+.fold2
+{
+	background: #eeeeee;
+	padding-top: 253px;
+	box-shadow: inset 0 -1px 5px rgba(0,0,0,.3);
+
+}
+.slider
+{
+	text-align: center;
+	margin-bottom: 14px;
+}
+.yourGateway
+{
+	font-family:RobotoMedium;
+	font-size: 24px;
+	line-height: 32px;
+	color: #666666;
+	display: block;
+}
+.translationService
+{
+	font-family:RobotoMedium;
+	font-size: 30px;
+	line-height: 32px;
+	color: #444444;
+}
+.sliderTxt
+{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.signup
+{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.translationBuyer
+{
+	
+	background-color:#d44122;
+	border:1px solid ##992211;
+	display:inline-block;
+	color:#ffffff;
+	font-family: RobotoBold;
+	font-size:16px;
+	line-height: 50px;
+	font-weight:normal;
+	font-style:normal;
+	height:50px;
+	width:250px;
+	text-align:center;
+	text-decoration: none;
+	text-shadow:1px 0px 1px #000000;
+	border-radius: 5px;
+	margin-right: 17px;
+}
+.or
+{
+	font-family: RobotoBold;
+	font-size: 20px;
+	line-height: 24px;
+	color: #666666;
+	margin-right: 17px;
+}
+.translation
+{
+	text-align: center;
+	padding-bottom: 33px;
+	
+}
+.fold3
+{
+	width: 100%;
+	background-color: #444444;
+	margin-bottom: 40px;
+	box-shadow: inset 0 -1px 5px rgba(0,0,0,.3);
+
+}
+.grid
+{
+	float: left;
+	width: 220px;
+	text-align: center;
+	padding-top: 35px;
+	margin-right: 15px;
+	margin-bottom: 20px;
+}
+.gridHeading
+{
+	width: 210px;
+	font-family:RobotoMedium;
+	font-size: 16px;
+	line-height: 24px;
+	color: #ffffff;
+	display: block;
+	border-bottom:solid 1px gray; 
+	margin: auto;
+
+}
+.gridTxt
+{	
+	padding-top: 15px;
+	width: 200px;
+	margin: auto;
+	text-align: justify;
+
+}
+.lorem
+{
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 18px;
+	color: #bbbbbb;
+	
+}
+.grid a
+{
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 18px;
+	color: #ffffff;
+	text-decoration: none;
+	
+}
+.fold4
+{
+	width: 100%;
+	background-color: #ffffff;
+	/*box-shadow: 1px 0px 3px #000000;*/
+}
+.map
+{
+	background: url("../images/worldMap.png") no-repeat;
+	width: 940px;
+	height: 433px;
+	
+}
+.maptop
+{
+	margin-bottom: 6px;
+}
+.providers
+{
+	float: left;
+	
+}
+.providers span
+{
+	font-family:RobotoMedium;
+	font-size: 21px;
+	line-height: 38px;
+	color: #444444; 
+}
+.topProviders
+{
+	float:left;
+	width: 270px;
+	float: right;
+	border-bottom:solid 1px #ebebeb;
+}
+.topProviders span
+{
+	font-family:RobotoBold;
+	font-size: 18px;
+	line-height: 28px;
+	color: #dd4422; 
+}
+.Title 
+{	float: left;
+	margin-bottom: 15px;
+	margin-right: 71px;
+}
+.tp
+{
+	float: right;
+	
+}
+
+.john
+{
+	height: 43px;
+	width: 43px;
+	float: left;
+	margin-right: 13px;
+	background: url("../images/john.png");
+}
+.jenifer
+{
+	height: 43px;
+	width: 44px;
+	float: left;
+	margin-right: 13px;
+	background: url("../images/jenifer.png");
+}
+.anthoney
+{
+	height: 43px;
+	width: 44px;
+	float: left;
+	margin-right: 13px;
+	background: url("../images/anthoney.png");
+}
+.jonathan
+{
+	height: 43px;
+	width: 44px;
+	float: left;
+	margin-right: 13px;
+	background: url("../images/jonathan.png");
+}
+.jenny
+{
+	height: 43px;
+	width: 44px;
+	float: left;
+	margin-right: 13px;
+	background: url("../images/jenny.png");
+}
+.rohit
+{
+	height: 43px;
+	width: 44px;
+	float: left;
+	margin-right: 13px;
+	background: url("../images/rohit.png");
+}
+.subject
+{
+	float: left;
+}
+.name
+{
+	font-family: Arial;
+	font-size: 13px;
+	line-height: 20px;
+	color: #222222;
+	display: block;
+}
+.language
+{
+	font-family: Arial;
+	font-size: 11px;
+	line-height: 20px;
+	color: #888888;
+}
+.menu li
+{
+	margin-bottom: 15px;
+}
+.fold5
+{
+	background: #dddddd;
+	width: 100%;
+	padding-bottom: 63px;
+	box-shadow: inset 0 -1px 5px rgba(0,0,0,.3);
+	padding-top: 20px;
+}
+
+
+.benified 
+{
+	font-family:RobotoMedium;
+	font-size: 24px;
+	line-height: 80px;
+	color: #444444;
+	text-align: center;
+	padding-left: 250px;
+
+}
+.mgrleft
+{
+	float: left;
+	border-radius: 5px;
+	background: #ffffff;
+	width: 420px;
+	margin-left: 10px;
+}
+.mgrright
+{
+	float: right;
+	border-radius: 5px;
+	background: #ffffff;
+	width: 420px;
+	margin-right: 10px;
+}
+.mgrImg
+{
+	float:left;
+	padding: 2px;
+	width: 65px;
+	height: 66px;
+	padding-top: 20px;
+	padding-left: 20px;
+	margin-right: 14px;
+	
+}
+
+.mgrTxt
+{
+	float: left;
+	width: 290px;
+	padding-top: 16px;
+	padding-bottom: 25px;
+}
+
+.name
+{
+	font-family: RobotoBold;
+	font-size: 16px;
+	line-height: 32px;
+	color: #222222;
+}
+.designation
+{
+	font-family: RobotoBold;
+	font-size: 14px;
+	line-height: 18px;
+	color: #d54102;
+
+}
+.details
+{
+	font-family:Arial;
+	font-size: 12px;
+	line-height: 18px;
+	color: #888888;
+}
+.benefied1
+{
+	margin-bottom: 30px;
+}
+.fold6
+{
+	background: #353535;
+}
+.bottomLink
+{
+	list-style: none;
+	text-align: center;
+	padding-top: 15px;
+}
+.bottomLink li
+{
+	display: inline-block;
+	margin-right: 7px;
+}
+.bottomLink li a
+{
+	text-decoration: none;
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 16px;
+	color: #d9d9d9;
+	display: block;
+}
+.copywrite
+{
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 16px;
+	color: #888888;
+	text-align: center;
+	padding-top: 7px;
+	padding-bottom: 20px;
+
+}
+.signUp
+{
+	
+	background-color:#f7f7f7;
+	display:inline-block;
+	color:#3f3f3f;
+	font-family: RobotoBold;
+	font-size:14px;
+	line-height: 24px;
+	font-weight:normal;
+	font-style:normal;
+	height:35px;
+	width:120px;
+	text-align:center;
+	text-decoration: none;
+	border-radius: 20px;
+}
