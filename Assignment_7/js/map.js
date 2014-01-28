@@ -1,5 +1,5 @@
 
-		var myCenter=new google.maps.LatLng(13.792574900000000000,100.574202300000020000);
+	var myCenter=new google.maps.LatLng(13.792574900000000000,100.574202300000020000);
 
 	function initialize()
 	{
